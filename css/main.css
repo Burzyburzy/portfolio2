@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", "Georgia", "Arial", sans-serif;
+    color: #555;
+    overflow-x: hidden;
+    line-height: 1.5em;
+}
+
+
+/* ============= Navbar ===============  */
+
+nav {
+    height: 4em;
+    background: rgba(0, 1, 0, 0.2);
+    /* http://www.css3maker.com/css-3-rgba.html */
+    border-bottom: 1px solid rgba(0, 2, 0, 0.5);
+    font-size: 1.2em;
+    color: white;
+}
+
+nav .fa {
+    margin-right: 7px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav ul li a {
+    color: #e8f1f2;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #07393c;
+}
+
+.leftNav {
+    float: left;
+}
+
+.rightNav {
+    float: right;
+}
+
+
+/* ========== content ========== */
+
+header {
+    background-color: #263d36;
+    background-image: url("https://hd.unsplash.com/photo-1415795854641-f4a487a0fdc8");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    line-height: 1.2;
+    text-align: center;
+    height: 50em;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    clear: both;
+    padding-top: 2em;
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+p {
+    padding: 2em 1em;
+    line-height: 1.5;
+}
+
+#mugshot {
+    border: 1px solid #555;
+}
+
+.about {
+    padding-top: 2em;
+    padding-bottom: 5em;
+    /*background-color: blue;*/
+}
+
+.about p {
+    text-align: justify;
+}
+
+.centralText {
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
+    /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+}
+
+.centralText a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    background: #07393c;
+    background-image: -webkit-linear-gradient(top, #628395, #628395);
+    background-image: -moz-linear-gradient(top, #628395, #628395);
+    background-image: -ms-linear-gradient(top, #628395, #628395);
+    background-image: -o-linear-gradient(top, #628395, #628395);
+    background-image: linear-gradient(to bottom, #628395, #628395);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #555d61 2px;
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+
+.btn:hover {
+    background: #f6ca83;
+    text-decoration: none;
+}
+
+.contact {
+    padding: 1em 0;
+}
+
+.input1:focus {
+    /*border: 3px solid #6b6054;*/
+}
+
+.footer {
+    color: #555;
+    background: #fff;
+    background-image: url("../images/sos.png");
+    border-top: 1px solid #555;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #07393c;
+}
+
+.footer h4 {
+    color: #555;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.footer ul li a {
+    color: #b8b8b8;
+}
+
+.footer ul li a:hover {
+    color: #555;
+}
+
+.text-center p {
+    text-align: justify;
+}
+
+.media {
+    border-top: 1px solid #555;
+    height: 5em;
+}
+
+.portfolio {
+    /*background-color: red;*/
+    border-bottom: 3px solid #555;
+}
+
+.vertAlign {
+    position: relative;
+    top: 5%;
+    transform: translateY(-5%);
+}
